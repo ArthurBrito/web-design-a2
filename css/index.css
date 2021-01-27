@@ -173,6 +173,11 @@ h3 {
   color: #60ffcc;
 }
 
+.error {
+  color: red;
+  display: none;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .container {

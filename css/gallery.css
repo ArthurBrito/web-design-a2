@@ -114,11 +114,6 @@ img {
   animation-duration: 1.5s;
 }
 
-.error {
-  color: red;
-  display: none;
-}
-
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
