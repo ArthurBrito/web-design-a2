@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/submission.css" />
+
+    <title>Submission</title>
+    <meta
+      name="description"
+      content="Submission form and information for the 2021 competition"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="divider">
+        <div class="half logo">
+          <a href="./index.html">
+            <img src="./logo.png" />
+          </a>
+        </div>
+        <div class="half nav-item">
+          <ul>
+            <li>
+              <a href="./submission.html"> Submission </a>
+            </li>
+            <li>
+              <a href="./gallery.html"> Gallery & Sample0 </a>
+            </li>
+            <li>
+              <a href="./results.html"> Results </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="divider full-page">
+        <div class="box form-wrapper">
+          <p class="title">Submission</p>
+          <form
+            id="submission"
+            action="submission.php"
+            method="post"
+            accept-charset="UTF-8"
+          >
+            <div class="input-wrapper">
+              <label>Name:</label>
+              <input name="name" />
+            </div>
+            <div class="input-wrapper">
+              <label>University:</label>
+              <input name="university" />
+            </div>
+            <div class="input-wrapper">
+              <label>Email Address:</label>
+              <input name="email" />
+            </div>
+            <div class="input-wrapper">
+              <label>Address:</label>
+              <input name="address" />
+            </div>
+            <div class="input-wrapper">
+              <label>Phone number:</label>
+              <input name="phone" />
+            </div>
+            <div class="input-wrapper">
+              <label>Upload file:</label>
+              <button class="upload">Upload</button>
+            </div>
+            <div>
+              <label>Accepting Terms and Conditions of contest:</label>
+              <input type="checkbox" name="Terms" />
+            </div>
+            <div class="button-wrapper">
+              <input type="submit" onclick="submit()" />
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="divider">
+          <div class="half">
+            <ul>
+              <h3>Organizers</h3>
+              <li>Abhijit Das (Griffith University and UTS, Australia)</li>
+              <li>Umpada Pal (ISI, Kolkata, India)</li>
+              <li>Michael Blumenstein (UTS , Australia)</li>
+              <li>Miguel A. Ferrer (ULPGC, Spain)</li>
+            </ul>
+          </div>
+          <div class="half">
+            <p>
+              For any further information please contact at
+              abhijit.das@griffithuni.edu.au.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

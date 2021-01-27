@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sclera Segmentation Benchmarking Competition 2021</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <meta
+      name="description"
+      content="The growing large market of biometrics systems has attracted a
+    number of companies. It is also necessary to match the performance
+    of different sensor or cross sensor environment."
+    />
+    <meta
+      name="keywords"
+      content="Scelera Segmentation, Benchmarking, Competition, "
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="divider">
+        <div class="half logo">
+          <a href="./index.html">
+            <img src="./logo.png" />
+          </a>
+        </div>
+        <div class="half nav-item">
+          <ul>
+            <li>
+              <a href="./submission.html"> Submission </a>
+            </li>
+            <li>
+              <a href="./gallery.html"> Gallery & Sample </a>
+            </li>
+            <li>
+              <a href="./results.html"> Results </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="divider full-page">
+        <div class="half box">
+          <h2>Welcome to the</h2>
+          <h1>Sclera Segmentation Benchmarking Competition 2021</h1>
+        </div>
+        <div class="half box overview">
+          <p class="subtitle">
+            The growing large market of biometrics systems has attracted a
+            number of companies. It is also necessary to match the performance
+            of different sensor or cross sensor environment.
+          </p>
+          <a href="./submission.html">
+            <button>Join the competition</button>
+          </a>
+        </div>
+      </main>
+      <article class="divider">
+        <div class="box overview">
+          <div class="block">
+            <p class="title">Overview</p>
+          </div>
+          <div class="text-wrapper">
+            <p>
+              Among ocular biometrics, sclera biometrics has gained its
+              popularity since last few years. The major reason for the
+              popularity of this biometrics is because it can increase the
+              biometric applicability of iris biometrics. In order to establish
+              this concept, it is necessary to access the biometric
+              applicability of sclera.
+            </p>
+            <p>
+              Some major challenges that are faced in the sclera biometrics are
+              the segmentation of the sclera portion from the eye image. Various
+              algorithms have been proposed for sclera segmentation in
+              subsequent works of this biometrics, but still, it is a challenge
+              and an open research area.
+            </p>
+            <p>
+              Moreover, for benchmarking sclera segmentation, three competitions
+              were organized namely SSBC 2015, SSRBC 2016 and SSERBC 2017 in
+              conjunction with BTAS 2015, ICB 2016, and IJCB 2017 respectively.
+              Due to the overwhelming successful completion of SSBC 2015, SSRBC
+              2016 and SSERBC 2017, we plan to organize this proposed
+              competition to benchmark sclera segmentation in cross sensor
+              environment.
+            </p>
+          </div>
+        </div>
+        <aside class="box border-box">
+          <div class="block">
+            <p class="title">News</p>
+          </div>
+          <div class="text-wrapper">
+            <ul>
+              <li>30/11/2017: Result declared.</li>
+              <li>
+                18/11/2017: Results announcement delayed to 30th November 2017.
+              </li>
+              <li>
+                30/10/2017: Registration and code submission date extended until
+                29th November 2017.
+              </li>
+              <li>21/08/2017: Regeistrtion open and datset available.</li>
+              <li>20/08/2017: Site released</li>
+            </ul>
+          </div>
+        </aside>
+      </article>
+
+      <article class="divider">
+        <aside class="box border-box">
+          <div class="block">
+            <p class="title">Prizes</p>
+          </div>
+          <div class="text-wrapper">
+            <h2>The winner will be awarded a certificate.</h2>
+            <a href="./submission.html">
+              <button class="padding">Join the competition</button>
+            </a>
+          </div>
+        </aside>
+        <div class="box overview">
+          <div class="block">
+            <p class="title">The method of participation</p>
+          </div>
+          <div class="text-wrapper">
+            <p>
+              The competition registration can be done by email. If you would
+              like to register and receive the training dataset, please send an
+              email to abhijit.das@griffithuni.edu.au with the subject line as
+              SSBC 2018, with the following information:
+            </p>
+            <strong
+              >Name, Affiliation, Email, Phone number and Mailing
+              Address:</strong
+            >
+            <p>
+              The training dataset will be made available with the ground truth.
+              The naming convention of the eye image will be as E-xxx-y-z-n.jpg,
+              where E signify eye image, xxx signify class in number e.g. 001,
+              061,142, y signifies left = l or right = r eye, z is gaze angle
+              i.e. l = left, r = right, s = straight or t=top and n is the
+              number of the samples in that particular angle. The naming
+              convention of the mask image will be as M-xxx-y-z-n.jpg, where M
+              signifies mask image and xxx-y-z-n signify the same as for the eye
+              images. The participants need to provide a Matlab script file
+              (segmentation.m or segmentation.p) that can read the images from a
+              directory and it writes the segmented mask in a particular
+              directory.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="divider">
+          <div class="half">
+            <ul>
+              <h3>Organizers</h3>
+              <li>Abhijit Das (Griffith University and UTS, Australia)</li>
+              <li>Umpada Pal (ISI, Kolkata, India)</li>
+              <li>Michael Blumenstein (UTS , Australia)</li>
+              <li>Miguel A. Ferrer (ULPGC, Spain)</li>
+            </ul>
+          </div>
+          <div class="half">
+            <p>
+              For any further information please contact at
+              abhijit.das@griffithuni.edu.au.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

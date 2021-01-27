@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/gallery.css" />
+    <script src="js/slide.js"></script>
+    <script src="js/sample-download.js"></script>
+
+    <title>Gallery</title>
+    <meta
+      name="description"
+      content="Gallery of some of the best work from last year"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="divider">
+        <div class="half logo">
+          <a href="./index.html">
+            <img src="./logo.png" />
+          </a>
+        </div>
+        <div class="half nav-item">
+          <ul>
+            <li>
+              <a href="./submission.html"> Submission </a>
+            </li>
+            <li>
+              <a href="./gallery.html"> Gallery & Sample </a>
+            </li>
+            <li>
+              <a href="./results.html"> Results </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="divider full-page">
+        <div class="box gallery">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 6</div>
+              <img src="./samples/1/E_1_ (3).jpg" style="width: 100%" />
+              <div class="text">Sample 1 E</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 6</div>
+              <img src="./samples/1/M_1_ (3).jpg" style="width: 100%" />
+              <div class="text">Sample 1 M</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 6</div>
+              <img src="./samples/2/E_2_ (3).jpg" style="width: 100%" />
+              <div class="text">Sample 2 E</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 6</div>
+              <img src="./samples/2/M_2_ (3).jpg" style="width: 100%" />
+              <div class="text">Sample 2 M</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 6</div>
+              <img src="./samples/3/E_3_ (3).jpg" style="width: 100%" />
+              <div class="text">Sample 3 E</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 6</div>
+              <img src="./samples/3/M_3_ (3).jpg" style="width: 100%" />
+              <div class="text">Sample 3 M</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br />
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
+        </div>
+        <div class="box description">
+          <p class="subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            tenetur dignissimos sunt illo ipsa officia obcaecati officiis,
+            voluptatibus facilis quas nisi repellat repellendus, amet voluptate
+            corrupti possimus fugit repudiandae minus?
+          </p>
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" />
+          </div>
+
+          <p id="error" class="error">
+            Please fill all fields to download the samples
+          </p>
+          <br />
+          <br />
+          <button onclick="download()">Download sample</button>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="divider">
+          <div class="half">
+            <ul>
+              <h3>Organizers</h3>
+              <li>Abhijit Das (Griffith University and UTS, Australia)</li>
+              <li>Umpada Pal (ISI, Kolkata, India)</li>
+              <li>Michael Blumenstein (UTS , Australia)</li>
+              <li>Miguel A. Ferrer (ULPGC, Spain)</li>
+            </ul>
+          </div>
+          <div class="half">
+            <p>
+              For any further information please contact at
+              abhijit.das@griffithuni.edu.au.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

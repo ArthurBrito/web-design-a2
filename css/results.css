@@ -1,0 +1,29 @@
+table {
+  margin: auto;
+  border: 2px solid #272635;
+  border-radius: 5px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+thead th {
+  padding: 16px;
+  font-size: 20px;
+  text-decoration: #ff8360 underline;
+}
+
+tbody td {
+  max-width: 500px;
+  font-size: 18px;
+  padding: 16px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  table {
+    width: 90%;
+  }
+  .full-page {
+    height: auto;
+  }
+}
